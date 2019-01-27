@@ -1,3 +1,5 @@
-neueda\task\tinyurl\Controller$UrlEntity.class
-neueda\task\tinyurl\Controller.class
-neueda\task\tinyurl\SpringIntegration1Application.class
+neueda\tinyurl\TinyUrlApplication.class
+neueda\tinyurl\orm\TinyUrlDbService.class
+neueda\tinyurl\orm\UrlDao.class
+neueda\tinyurl\controller\Response.class
+neueda\tinyurl\controller\Controller.class

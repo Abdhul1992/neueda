@@ -31,7 +31,7 @@ public class ControllerTest extends AbstractJUnit4SpringContextTests{
 		url.setResponseString("http://skype.com/accumsan/odio.jsp?sollicitudin=auctor&mi=gravida&sit=sem&amet=praesent&lobortis=id&sapien=massa&sapien=id&non=nisl&mi=venenatis&integer=lacinia&ac=aenean&neque=sit&duis=amet&bibendum=justo&morbi=morbi&non=ut&quam=odio");
 		
 		String json = new Gson().toJson(url);
-		String response = controller.greeting(json);
+		String response = controller.generateUrl(json);
 		assertTrue(response.contains("http://localhost:8080/8d572168"));
 	}
 	
@@ -42,13 +42,13 @@ public class ControllerTest extends AbstractJUnit4SpringContextTests{
 		url.setResponseString("skype.com");
 		
 		String json = new Gson().toJson(url);
-		String response = controller.greeting(json);
+		String response = controller.generateUrl(json);
 		assertTrue(response.contains("Invalid"));
 	}
 	
 	@Test
 	public void getLongUrl() throws IOException {
-		assertEquals(new ResponseEntity<>(HttpStatus.OK), controller.redirect("2b90340b"));
+		assertEquals(new ResponseEntity<>(HttpStatus.OK), controller.redirect("8d572168"));
 	
 	}
 	

@@ -1,6 +1,10 @@
 # Description
 Most of us are familiar with seeing URLs like bit.ly or t.co on our Twitter or Facebook feeds. These are examples of shortened URLs, which are a short alias or pointer to a longer page link. For example, I can send you the shortened URL http://bit.ly/SaaYw5 that will forward you to a very long Google URL with search results on how to iron a shirt.
 
+The resultant application consists of a Spring boot application which acts as a endpoint to the Rest calls and an angular application which consumes this rest calls.
+
+Analytics also has been done using Elastic Stack.
+
 # Link for Spring boot docker image:
 docker pull abdhul/tinytrlspringboot
 # Setup Guide and Analytics

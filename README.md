@@ -13,7 +13,7 @@ TinyUrlSpringBoot -- This is the Spring Boot application	\
 angular6-httpclient -- This is the angular application \
 TINY URL GENERATOR ARCHITECTURE.pptx -- This is the architecture flow chart, data flow. \
 apache_tiny .conf -- The configuration file used for logstash \
-restcalls.py -- Python file to automate mockdata to be stored in Postgresql \
+restcalls.py -- Python file to automate mockdata to be stored in Postgresql 
 
 
 I can setup a demo if required.

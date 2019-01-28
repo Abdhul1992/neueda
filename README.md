@@ -21,4 +21,8 @@ restcalls.py -- Python file to automate mockdata to be stored in Postgresql \
 Setup Guide and Analytics.docx -- The setup guide and analytics screenshots
 
 
+# Report:
+The project has 88% coverage with Junits.
+The project has no major code quality violations.
+
 I can setup a demo if required.
